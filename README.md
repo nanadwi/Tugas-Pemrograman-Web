@@ -1,2 +1,383 @@
 # Tugas-Pemrograman-Web
 Tuguas Pemrograman Web,(Ratna Dwi Puspita,231730019,Informatika 3-A)
+## Here is the list that is needed 
+```
+fontawesome.com
+https://getbootstrap.com/dosc/5.0/components/according/
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+```
+## Head syntax
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company profile</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+
+      <link rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYMEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <script src="https://kit.fontawesome.com/860c0beb9f.js"
+     crossorigin="anonymous"></script>
+     <link rel="stylesheet" 
+     href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+     integrity="sha384-AYMEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous">
+</head>
+```
+## Body Navbar syntax
+```
+<body>
+      <!--navigasi-->
+    <nav 
+    class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Website Saya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+              </li>
+                <a class="nav-link" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+              </li>
+                <a class="nav-link" href="#staff">Staff</a>
+              </li>
+              <li class="nav-item">
+              </li>
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+```
+## Body Banner syntax
+```
+<div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="display-6">Selamat Datang di Website Kami</h4>
+            <h3 class="display-1">Halo!!</h3>
+            <a href="#layanan">
+                <button type="button" class="btn btn-danger btn-lg">
+                    Cek Layanan
+                </button>
+            </a>
+        </div>
+      </div>
+```
+## Body Layanan syntax
+```
+<div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan">Layanan</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, 
+                doloribus.
+            </p>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                  <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+                    <h3 class="mt-3">Programing</h3>
+                    <p>Programming adalah sebuah proses untuk membuat program di komputer.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                  <span class="lingkaran"><i class="fa-solid fa-palette fa-5x"></i></span>
+                    <h3 class="mt-3">Design</h3>
+                    <p>Desain adalah kegiatan kreatif untuk merencanakan dan merancang sesuatu yang umumnya fungsional.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                  <span class="lingkaran"><i class="fa-solid fa-network-wired fa-5x"></i></span>
+                    <h3 class="mt-3">Networkinng</h3>
+                    <p>Networking adalah suatu proses membangun dan memelihara hubungan dengan orang lain, baik itu secara langsung maupun tidak langsung.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+```
+## Body Portofolio syntax
+```
+<div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+          <h2 class="display-3" id="portofolio">Portofolio</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Doloremque laboriosam autem beatae quia non, molestias eius libero aperiam ducimus corrupti.
+          </p>
+            <div class="row pt-4 gx-4 gy-4">
+              <div class="col-md-4">
+
+                <div class="card-img">
+                  <img src="https://accounting.binus.ac.id/files/2019/07/KSInformationSystem-1515206840.jpg" 
+                  class="card-img-top"
+                  width="200"
+                  height="200"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem, ipsum.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-md-4">
+                  <div class="card-crop-img">
+                    <img src="https://trinetprimasolusi.net/wp-content/uploads/2019/11/Management-Information-System.jpg" 
+                    class="card-img-top"
+                    width="200"
+                    height="200"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-crop-img">
+                    <img src="https://i0.wp.com/quipperhome.wpcomstaging.com/wp-content/uploads/2019/04/45a18-template-image-blog-white-4.png?resize=800%2C533.jpg" 
+                    class="card-img-top"
+                    width="200"
+                    height="200"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-crop-img">
+                    <img src="https://media.suara.com/pictures/480x260/2020/04/18/15789-cara-membuat-website.jpg" 
+                    class="card-img-top"
+                    width="200"
+                    height="200"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-crop-img">
+                    <img src="https://www.zskninice.cz/data/files/25006/informatika.jpg" 
+                    class="card-img-top"
+                    width="200"
+                    height="200"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card-crop-img">
+                    <img src="https://markey.id/wp-content/uploads/2020/07/jaringan-komputer-1.jpg" 
+                    class="card-img-top"
+                    width="200"
+                    height="200"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Lorem, ipsum.</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Optio deleniti eveniet tempora maxime expedita nostrum!</p>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+        </div>
+      </div>
+```
+## Body Tentang 
+```
+<div class="conntainer-fluid pt-5 pb-5">
+        <div class="container">
+          <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Cupiditate, sed?
+          </p>
+          <div class="clearfix pt-5">
+            <img 
+            src="https://www.anakteknik.co.id/property/24522/articles/1874/pengertian-bahasa-pemrograman.jpg" 
+            class="col-md-6 float-md-end mb-3 crop-img" 
+            width="300" 
+            height="300"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Rerum repellat quae magnam ipsam inventore eos.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Rerum repellat quae magnam ipsam inventore eos.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Rerum repellat quae magnam ipsam inventore eos.
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Magnam velit recusandae quod consequuntur officiis voluptatibus quisquam neque tempora repellat aut.
+            </p>
+          </div>
+        </div>
+      </div>
+```
+## Body Staff syntax
+```
+<div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+          <h2 class="display-3"id="staff">Staff</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, eaque beatae. 
+            Totam deleniti assumenda repellat temporibus! Ullam iure ut minima.
+          </p>
+          <div class="row pt-4 gx-4 gy-4">
+            <div class="col-md-4 text-center staff">
+              <img 
+              src="https://lainformacion.us/wp-content/uploads/2024/01/Ariana-Grande.jpg"
+              class="rounded-circle mb-3">
+              <h4>Ariana Grande</h4>
+              <p>Web Designer</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-square-x-twitter"></i></a>
+                  <a href="" class="social"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="" class="social"><i class="fa-brands fa-instagram"></i></a>
+              </p>
+            </div>
+            <div class="col-md-4 text-center staff">
+              <img 
+              src="https://cnn-arabic-images.cnn.io/cloudinary/image/upload/w_1920,c_scale,q_auto/cnnarabic/2023/03/06/images/234664.jpg"
+              class="rounded-circle mb-3">
+              <h4>Neymar JR</h4>
+              <p>Data Scientist</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-square-x-twitter"></i></a>
+                  <a href="" class="social"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="" class="social"><i class="fa-brands fa-instagram"></i></a>
+              </p>
+            </div>
+            <div class="col-md-4 text-center staff">
+              <img 
+              src="https://www.nme.com/wp-content/uploads/2021/01/20201030-000074840003-1.jpg"
+              class="rounded-circle mb-3">
+              <h4>olivia Rodrigo</h4>
+              <p>Network Engineer</p>
+              <p>
+                <a href="" class="social"><i class="fa-brands fa-square-x-twitter"></i></a>
+                  <a href="" class="social"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="" class="social"><i class="fa-brands fa-instagram"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+```
+## Body Client syntax
+```
+<div class="container-fluid client pt-5 pb-5">
+        <div class="container text-center">
+          <div class="row pt-4 gx-4 gy-4">
+            <div class="col">
+              <img src="https://learn.microsoft.com/en-us/windows/images/windows11.svg"
+               />
+            </div>
+            <div class="col">
+              <img src="https://i.pinimg.com/originals/47/8d/6e/478d6eda6dcb9d39d6fecc2ac09e3247.jpg"
+               />
+            </div>
+            <div class="col">
+              <img src="https://i.pinimg.com/736x/db/7e/69/db7e69290bb8e26e630f57b3f2b29fdb.jpg"
+               />
+            </div>
+            <div class="col">
+              <img src="https://freepngimg.com/thumb/logo/62843-icons-media-twitter-computer-black-social-logo.png"
+               />
+            </div>
+            <div class="col">
+              <img src="https://icon-library.com/images/gmail-icon-svg/gmail-icon-svg-1.jpg"
+               />
+            </div>
+            <div class="col">
+              <img src="https://pngteam.com/images/google_logo_grayed_7-1128x376_983de733_transparent.png"
+               />
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+```
+## Body Kontak syntax
+```
+div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+          <h2 class="display-3 text-center"  id="kontak">Kontak</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officiis, deserunt.
+          </p>
+          <div class="row pb-3">
+            <div class="col-md-6">
+              <input class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+              />
+              <input class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+              />
+              <input class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="No Handphone"
+              />
+              <input class="form-control form-control-lg"
+              type="text"
+              placeholder="Instagram"
+              />
+            </div>
+            <div class="col-md-6">
+              <textarea class="form-control form-control-lg" rows="7"></textarea>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto text-center">
+            <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center pt-5 pb-5">
+        All Right Reserved &copy; 2024
+      </div>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
